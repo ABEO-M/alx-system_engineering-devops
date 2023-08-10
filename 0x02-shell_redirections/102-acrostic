@@ -1,3 +1,2 @@
 #!/bin/bash
-cut -d' ' -f1 file
-
+cut -o 1 | paste -a -d ''
